@@ -28,3 +28,11 @@ maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () =
     ];
     expect(sumOfNumbers(numbers)).toBe(75);
 });
+function sumOfNumbers(arrayOfNumbers) {
+    let sum = 0;
+    for (let i=0; i < arrayOfNumbers.length; i++) {
+    sum += arrayOfNumbers[i]
+  }
+    return arrayOfNumbers.length;
+}
+assignment.sumOfNumbers = sumOfNumbers;
